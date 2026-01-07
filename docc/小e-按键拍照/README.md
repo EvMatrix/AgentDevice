@@ -8,10 +8,10 @@
 还不完善，正在修改中...
 ```
 ## 1. config.h添加拍照引脚配置
-![图片](img/image1.png)
+![图片](img/image1.jpg)
 ## 2.添加拍照监测头文件
-![图片](img/image2.png)
+![图片](img/image2.jpg)
 ## 3.初始化按键拍照监测器
-![图片](img/image3.png)
+![图片](img/image3.jpg)
 ## 4.初始化按键拍照方法
-![图片](img/image4.png)
+![图片](img/image4.jpg)
