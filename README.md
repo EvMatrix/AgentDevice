@@ -30,7 +30,7 @@ AgentDevice/
 ├── LICENSE                 # Apache 2.0 许可证
 ├── README.md              # 项目说明文档（中文）
 ├── README_EN.md           # 项目说明文档（英文）
-└── docs/               # 小e智能终端相关文件
+└── docc/               # 小e智能终端相关文件
     ├── 3D外壳文件/        # 3D 打印 STL 文件
     ├── 原理图及PCB文件/   # 电路原理图和 PCB Gerber 文件
     ├── 小e-按键拍照/     # 按键拍照功能实现
@@ -44,13 +44,13 @@ AgentDevice/
 ## 硬件设计详解
 
 ### 电路原理图
-项目包含完整的电路原理图 PDF 文件，位于 `docs/原理图及PCB文件/原理图.pdf`。
+项目包含完整的电路原理图 PDF 文件，位于 `docc/原理图及PCB文件/原理图.pdf`。
 
 **原理图预览：**
-[查看完整原理图](docs/原理图及PCB文件/原理图.pdf)
+[查看完整原理图](docc/原理图及PCB文件/原理图.pdf)
 
 ### PCB 设计
-PCB Gerber 文件位于 `docs/原理图及PCB文件/Gerber_PCB/` 目录，包含：
+PCB Gerber 文件位于 `docc/原理图及PCB文件/Gerber_PCB/` 目录，包含：
 - 顶层和底层铜箔层
 - 丝印层
 - 阻焊层
@@ -58,20 +58,20 @@ PCB Gerber 文件位于 `docs/原理图及PCB文件/Gerber_PCB/` 目录，包含
 - 其他制造文件
 
 **PCB下单必读：**
-[PCB下单说明](docs/原理图及PCB文件/Gerber_PCB/PCB下单必读.txt)
+[PCB下单说明](docc/原理图及PCB文件/Gerber_PCB/PCB下单必读.txt)
 
 ### 3D 外壳
-3D 打印文件位于 `docs/3D外壳文件/` 目录，包含：
+3D 打印文件位于 `docc/3D外壳文件/` 目录，包含：
 - 外壳主体 (外壳1.STL)
 - 按键组件 (按键.STL, 按键2.STL, 按键3.STL, 按键4.STL)
 - 屏幕盖板 (装配体2 - 屏幕盖-1.STL)
 - 盖板 (装配体2 - 盖-1.STL)
 
 **3D 外壳渲染图：**
-![外壳主体](docs/3D外壳文件/外壳1.jpg)
-![按键组件](docs/3D外壳文件/按键.jpg)
-![屏幕盖板](docs/3D外壳文件/装配体2%20-%20屏幕盖-1.jpg)
-![盖板](docs/3D外壳文件/装配体2%20-%20盖-1.jpg)
+![外壳主体](docc/3D外壳文件/外壳1.jpg)
+![按键组件](docc/3D外壳文件/按键.jpg)
+![屏幕盖板](docc/3D外壳文件/装配体2%20-%20屏幕盖-1.jpg)
+![盖板](docc/3D外壳文件/装配体2%20-%20盖-1.jpg)
 
 ## 软件功能实现
 
@@ -84,15 +84,15 @@ PCB Gerber 文件位于 `docs/原理图及PCB文件/Gerber_PCB/` 目录，包含
 
 **演示视频：**
 <video width="600" controls>
-  <source src="docs/小e-按键拍照/video/video1.mp4" type="video/mp4">
+  <source src="docc/小e-按键拍照/video/video1.mp4" type="video/mp4">
   您的浏览器不支持视频标签
 </video>
 
 **配置截图：**
-![拍照引脚配置](docs/小e-按键拍照/img/image1.png)
-![拍照头文件](docs/小e-按键拍照/img/image2.png)
-![初始化监测器](docs/小e-按键拍照/img/image3.png)
-![拍照方法](docs/小e-按键拍照/img/image4.png)
+![拍照引脚配置](docc/小e-按键拍照/img/image1.png)
+![拍照头文件](docc/小e-按键拍照/img/image2.png)
+![初始化监测器](docc/小e-按键拍照/img/image3.png)
+![拍照方法](docc/小e-按键拍照/img/image4.png)
 
 ### 表情设置功能
 支持自定义表情包显示：
@@ -102,13 +102,13 @@ PCB Gerber 文件位于 `docs/原理图及PCB文件/Gerber_PCB/` 目录，包含
 4. 配置显示参数
 
 **表情包示例：**
-![表情包生成](docs/小e-表情设置/img/image1.png)
-![图片转换工具](docs/小e-表情设置/img/image2.png)
-![表情数据添加](docs/小e-表情设置/img/image3.png)
-![64位数据](docs/小e-表情设置/img/image4.png)
-![32位数据](docs/小e-表情设置/img/image5.png)
-![文件名对应](docs/小e-表情设置/img/image6.png)
-![文件位置](docs/小e-表情设置/img/image7.png)
+![表情包生成](docc/小e-表情设置/img/image1.png)
+![图片转换工具](docc/小e-表情设置/img/image2.png)
+![表情数据添加](docc/小e-表情设置/img/image3.png)
+![64位数据](docc/小e-表情设置/img/image4.png)
+![32位数据](docc/小e-表情设置/img/image5.png)
+![文件名对应](docc/小e-表情设置/img/image6.png)
+![文件位置](docc/小e-表情设置/img/image7.png)
 
 ### 电量显示功能
 实时监测电池电量：
@@ -118,12 +118,12 @@ PCB Gerber 文件位于 `docs/原理图及PCB文件/Gerber_PCB/` 目录，包含
 4. 实现电量获取函数
 
 **配置截图：**
-![电量引脚配置](docs/小e-电量显示/img/image1.png)
-![电量头文件](docs/小e-电量显示/img/image2.png)
-![电量变量](docs/小e-电量显示/img/image3.png)
-![ADC初始化](docs/小e-电量显示/img/image4.png)
-![监测初始化](docs/小e-电量显示/img/image5.png)
-![GetBatteryLevel函数](docs/小e-电量显示/img/image6.png)
+![电量引脚配置](docc/小e-电量显示/img/image1.png)
+![电量头文件](docc/小e-电量显示/img/image2.png)
+![电量变量](docc/小e-电量显示/img/image3.png)
+![ADC初始化](docc/小e-电量显示/img/image4.png)
+![监测初始化](docc/小e-电量显示/img/image5.png)
+![GetBatteryLevel函数](docc/小e-电量显示/img/image6.png)
 
 ### 音量控制功能
 音量加减按键控制：
@@ -134,16 +134,16 @@ PCB Gerber 文件位于 `docs/原理图及PCB文件/Gerber_PCB/` 目录，包含
 
 **演示视频：**
 <video width="600" controls>
-  <source src="docs/小e-音量加减/video/video1.mp4" type="video/mp4">
+  <source src="docc/小e-音量加减/video/video1.mp4" type="video/mp4">
   您的浏览器不支持视频标签
 </video>
 
 **配置截图：**
-![音量引脚定义](docs/小e-音量加减/img/image1.png)
-![变量定义](docs/小e-音量加减/img/image2.png)
-![按钮初始化](docs/小e-音量加减/img/image3.png)
-![构造函数修改](docs/小e-音量加减/img/image4.png)
-![头文件添加](docs/小e-音量加减/img/image5.png)
+![音量引脚定义](docc/小e-音量加减/img/image1.png)
+![变量定义](docc/小e-音量加减/img/image2.png)
+![按钮初始化](docc/小e-音量加减/img/image3.png)
+![构造函数修改](docc/小e-音量加减/img/image4.png)
+![头文件添加](docc/小e-音量加减/img/image5.png)
 
 ### IoT 控制设备
 集成物联网功能，支持多种传感器：
@@ -152,8 +152,8 @@ PCB Gerber 文件位于 `docs/原理图及PCB文件/Gerber_PCB/` 目录，包含
 - 属性定义和回调函数
 
 **实现截图：**
-![IoT工具类创建](docs/小e-iot控制设备/img/image1.png)
-![设备初始化](docs/小e-iot控制设备/img/image2.png)
+![IoT工具类创建](docc/小e-iot控制设备/img/image1.png)
+![设备初始化](docc/小e-iot控制设备/img/image2.png)
 
 ### MCP 控制设备
 通过 MCP 协议控制外部设备：
@@ -162,8 +162,8 @@ PCB Gerber 文件位于 `docs/原理图及PCB文件/Gerber_PCB/` 目录，包含
 - 数据传输和控制
 
 **实现截图：**
-![MCP代码实现](docs/小e-mcp控制设备/img/image1.png)
-![MCP初始化](docs/小e-mcp控制设备/img/image2.png)
+![MCP代码实现](docc/小e-mcp控制设备/img/image1.png)
+![MCP初始化](docc/小e-mcp控制设备/img/image2.png)
 
 ## 快速开始
 
@@ -222,15 +222,15 @@ PCB Gerber 文件位于 `docs/原理图及PCB文件/Gerber_PCB/` 目录，包含
 - **GitHub Issues**：[提交问题](https://github.com/your-repo/AgentDevice/issues)
 - **官网**：[https://ai-evbot.cn](https://ai-evbot.com)
 - **微信联系人二维码**：
-  ![微信联系人二维码](docs/contact/wechat_personal_qr.png)
+  ![微信联系人二维码](docc/contact/wechat_personal_qr.png)
 - **视频号二维码**：
-  ![视频号二维码](docs/contact/wechat_work_qr.png)
+  ![视频号二维码](docc/contact/wechat_work_qr.png)
 - **抖音号二维码**：
-  ![抖音号二维码](docs/contact/douyin.png)
+  ![抖音号二维码](docc/contact/douyin.png)
 - **B站二维码**：
-  ![B站二维码](docs/contact/B站.png)
+  ![B站二维码](docc/contact/B站.png)
 - **小红书二维码**：
-  ![小红书二维码](docs/contact/xhs.png)
+  ![小红书二维码](docc/contact/xhs.png)
 
 ### 赞助支持
 如果喜欢这个项目给点个🌟，可以解锁更多内容和开源代码

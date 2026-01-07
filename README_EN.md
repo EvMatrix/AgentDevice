@@ -30,7 +30,7 @@ AgentDevice/
 ├── LICENSE                 # Apache 2.0 License
 ├── README.md              # Project Documentation (Chinese)
 ├── README_EN.md           # Project Documentation (English)
-└── docs/               # docs Smart Terminal Files
+└── docc/               # docc Smart Terminal Files
     ├── 3D外壳文件/        # 3D Printed STL Files
     ├── 原理图及PCB文件/   # Schematic and PCB Gerber Files
     ├── 小e-按键拍照/     # Button Camera Implementation
@@ -44,13 +44,13 @@ AgentDevice/
 ## Hardware Design Details
 
 ### Circuit Schematic
-The project includes complete circuit schematic PDF files located at `docs/原理图及PCB文件/原理图.pdf`.
+The project includes complete circuit schematic PDF files located at `docc/原理图及PCB文件/原理图.pdf`.
 
 **Schematic Preview:**
-[View Full Schematic](docs/原理图及PCB文件/原理图.pdf)
+[View Full Schematic](docc/原理图及PCB文件/原理图.pdf)
 
 ### PCB Design
-PCB Gerber files are located in the `docs/原理图及PCB文件/Gerber_PCB/` directory, including:
+PCB Gerber files are located in the `docc/原理图及PCB文件/Gerber_PCB/` directory, including:
 - Top and bottom copper layers
 - Silkscreen layers
 - Solder mask layers
@@ -58,20 +58,20 @@ PCB Gerber files are located in the `docs/原理图及PCB文件/Gerber_PCB/` dir
 - Other manufacturing files
 
 **PCB Ordering Notes:**
-[PCB Ordering Instructions](docs/原理图及PCB文件/Gerber_PCB/PCB下单必读.txt)
+[PCB Ordering Instructions](docc/原理图及PCB文件/Gerber_PCB/PCB下单必读.txt)
 
 ### 3D Enclosure
-3D printing files are located in the `docs/3D外壳文件/` directory, including:
+3D printing files are located in the `docc/3D外壳文件/` directory, including:
 - Main enclosure (外壳1.STL)
 - Button components (按键.STL, 按键2.STL, 按键3.STL, 按键4.STL)
 - Screen cover (装配体2 - 屏幕盖-1.STL)
 - Cover plate (装配体2 - 盖-1.STL)
 
 **3D Enclosure Renderings:**
-![Main Enclosure](docs/3D外壳文件/外壳1.jpg)
-![Button Components](docs/3D外壳文件/按键.jpg)
-![Screen Cover](docs/3D外壳文件/装配体2%20-%20屏幕盖-1.jpg)
-![Cover Plate](docs/3D外壳文件/装配体2%20-%20盖-1.jpg)
+![Main Enclosure](docc/3D外壳文件/外壳1.jpg)
+![Button Components](docc/3D外壳文件/按键.jpg)
+![Screen Cover](docc/3D外壳文件/装配体2%20-%20屏幕盖-1.jpg)
+![Cover Plate](docc/3D外壳文件/装配体2%20-%20盖-1.jpg)
 
 ## Software Function Implementation
 
@@ -84,15 +84,15 @@ Supports button-triggered camera with integrated camera module. Implementation s
 
 **Demo Video:**
 <video width="600" controls>
-  <source src="docs/小e-按键拍照/video/video1.mp4" type="video/mp4">
+  <source src="docc/小e-按键拍照/video/video1.mp4" type="video/mp4">
   Your browser does not support the video tag
 </video>
 
 **Configuration Screenshots:**
-![Camera Pin Configuration](docs/小e-按键拍照/img/image1.png)
-![Camera Header File](docs/小e-按键拍照/img/image2.png)
-![Initialize Monitor](docs/小e-按键拍照/img/image3.png)
-![Camera Method](docs/小e-按键拍照/img/image4.png)
+![Camera Pin Configuration](docc/小e-按键拍照/img/image1.png)
+![Camera Header File](docc/小e-按键拍照/img/image2.png)
+![Initialize Monitor](docc/小e-按键拍照/img/image3.png)
+![Camera Method](docc/小e-按键拍照/img/image4.png)
 
 ### Expression Settings Function
 Supports custom emoticon display:
@@ -102,13 +102,13 @@ Supports custom emoticon display:
 4. Configure display parameters
 
 **Emoticon Examples:**
-![Emoticon Generation](docs/小e-表情设置/img/image1.png)
-![Image Conversion Tool](docs/小e-表情设置/img/image2.png)
-![Add Emoticon Data](docs/小e-表情设置/img/image3.png)
-![64-bit Data](docs/小e-表情设置/img/image4.png)
-![32-bit Data](docs/小e-表情设置/img/image5.png)
-![Filename Correspondence](docs/小e-表情设置/img/image6.png)
-![File Location](docs/小e-表情设置/img/image7.png)
+![Emoticon Generation](docc/小e-表情设置/img/image1.png)
+![Image Conversion Tool](docc/小e-表情设置/img/image2.png)
+![Add Emoticon Data](docc/小e-表情设置/img/image3.png)
+![64-bit Data](docc/小e-表情设置/img/image4.png)
+![32-bit Data](docc/小e-表情设置/img/image5.png)
+![Filename Correspondence](docc/小e-表情设置/img/image6.png)
+![File Location](docc/小e-表情设置/img/image7.png)
 
 ### Battery Display Function
 Real-time battery level monitoring:
@@ -118,12 +118,12 @@ Real-time battery level monitoring:
 4. Implement battery level function
 
 **Configuration Screenshots:**
-![Battery Pin Configuration](docs/小e-电量显示/img/image1.png)
-![Battery Header File](docs/小e-电量显示/img/image2.png)
-![Battery Variables](docs/小e-电量显示/img/image3.png)
-![ADC Initialization](docs/小e-电量显示/img/image4.png)
-![Monitor Initialization](docs/小e-电量显示/img/image5.png)
-![GetBatteryLevel Function](docs/小e-电量显示/img/image6.png)
+![Battery Pin Configuration](docc/小e-电量显示/img/image1.png)
+![Battery Header File](docc/小e-电量显示/img/image2.png)
+![Battery Variables](docc/小e-电量显示/img/image3.png)
+![ADC Initialization](docc/小e-电量显示/img/image4.png)
+![Monitor Initialization](docc/小e-电量显示/img/image5.png)
+![GetBatteryLevel Function](docc/小e-电量显示/img/image6.png)
 
 ### Volume Control Function
 Volume up/down button control:
@@ -134,16 +134,16 @@ Volume up/down button control:
 
 **Demo Video:**
 <video width="600" controls>
-  <source src="docs/小e-音量加减/video/video1.mp4" type="video/mp4">
+  <source src="docc/小e-音量加减/video/video1.mp4" type="video/mp4">
   Your browser does not support the video tag
 </video>
 
 **Configuration Screenshots:**
-![Volume Pin Definition](docs/小e-音量加减/img/image1.png)
-![Variable Definition](docs/小e-音量加减/img/image2.png)
-![Button Initialization](docs/小e-音量加减/img/image3.png)
-![Constructor Modification](docs/小e-音量加减/img/image4.png)
-![Header File Addition](docs/小e-音量加减/img/image5.png)
+![Volume Pin Definition](docc/小e-音量加减/img/image1.png)
+![Variable Definition](docc/小e-音量加减/img/image2.png)
+![Button Initialization](docc/小e-音量加减/img/image3.png)
+![Constructor Modification](docc/小e-音量加减/img/image4.png)
+![Header File Addition](docc/小e-音量加减/img/image5.png)
 
 ### IoT Device Control
 Integrated IoT functionality supporting various sensors:
@@ -152,8 +152,8 @@ Integrated IoT functionality supporting various sensors:
 - Property definition and callback functions
 
 **Implementation Screenshots:**
-![IoT Tool Class Creation](docs/小e-iot控制设备/img/image1.png)
-![Device Initialization](docs/小e-iot控制设备/img/image2.png)
+![IoT Tool Class Creation](docc/小e-iot控制设备/img/image1.png)
+![Device Initialization](docc/小e-iot控制设备/img/image2.png)
 
 ### MCP Device Control
 Control external devices via MCP protocol:
@@ -162,8 +162,8 @@ Control external devices via MCP protocol:
 - Data transmission and control
 
 **Implementation Screenshots:**
-![MCP Code Implementation](docs/小e-mcp控制设备/img/image1.png)
-![MCP Initialization](docs/小e-mcp控制设备/img/image2.png)
+![MCP Code Implementation](docc/小e-mcp控制设备/img/image1.png)
+![MCP Initialization](docc/小e-mcp控制设备/img/image2.png)
 
 ## Quick Start
 
@@ -222,9 +222,9 @@ For questions or suggestions, please contact us through:
 - **GitHub Issues**: [Submit Issues](https://github.com/your-repo/AgentDevice/issues)
 - **Official Website**: [https://agentdevice.com](https://agentdevice.com)
 - **Personal WeChat QR Code**:
-  ![Personal WeChat QR Code](docs/contact/wechat_personal_qr.png)
+  ![Personal WeChat QR Code](docc/contact/wechat_personal_qr.png)
 - **Corporate WeChat QR Code**:
-  ![Corporate WeChat QR Code](docs/contact/wechat_work_qr.png)
+  ![Corporate WeChat QR Code](docc/contact/wechat_work_qr.png)
 
 ### Sponsorship Support
 If you like this project, give it a 🌟, you can unlock more content and open source code
